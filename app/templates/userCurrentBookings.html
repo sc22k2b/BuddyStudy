@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<head>
+    <title> Your study sessions </title>
+</head>
+
+<body>
+    <br>
+
+    <span> <p> To see all active/inactive groups click<a class="card-link" href="/viewUserGroups"> here</a></p></span>
+    {% if createdSessions %}
+        <center><h1> Your created study sessions: </h1></center>
+
+        {% for c in createdSessions %}
+
+            <div class="card">
+
+                <h3><a class="card-link" href="/viewGroup/groupId={{ c.0.id }}">{{ c.0.title }}</a>
+                    {% if c.0.soonDate %}<span class="ribbon"> Starting soon</span> {% endif %}</h3>
+
+                <p><b>{{ c.0.topic }}</b> &nbsp {{ c.0.description }}</p>
+
+                <p> Starting: {{ c.0.startDate }} at {{ c.0.startTime }} &nbsp; <a class="card-link" id="location" href="/viewLocation/locationId={{ c.0.meetingLocation }}"> {{ c.0.locationTitle }}</a></p>
+                
+                <meta name="csrf-token" content="{{ csrf_token() }}">
+
+                <span><a href="/updateGroup/groupId={{ c.0.id }}"> <button type="button" class="button-groupEdit"> Edit group </button></a>
+                <a href="/deleteGroup/groupId={{ c.0.id }}"> <button type="button" class="button-groupDelete"> Delete group </button></a></span>
+                
+            </div>
+
+        {% endfor %}
+
+    {% endif %}
+
+    {% if bookedSessions %}
+        <center><h1> Study sessions your booked on: </h1>
+        <p> (Excluding your own sessions) </p></center>
+
+        {% for b in bookedSessions %}
+
+            <div class="card">
+
+                <h3><a class="card-link" href="/viewGroup/groupId={{ b.0.id }}">{{ b.0.title }}</a>
+                    {% if b.0.soonDate %}<span class="ribbon"> Starting soon</span> {% endif %}</h3>
+
+                <p><b>{{ b.0.topic }}</b> &nbsp {{ b.0.description }}</p>
+
+                <p> Starting: {{ b.0.startDate }} at {{ b.0.startTime }} &nbsp; <a class="card-link" id="location" href="/viewLocation/locationId={{ b.0.meetingLocation }}"> {{ b.0.locationTitle }}</a></p>
+
+                <a class="card-link" href="/deleteBooking/groupId={{ b.0.id }}"><button type="button" class="button-groupDelete"> Delete booking </button></a>
+                
+                <meta name="csrf-token" content="{{ csrf_token() }}">
+                
+            </div>
+
+        {% endfor %}
+    {% endif %}
+
+    {% if not bookedSessions %}
+        {% if not createdSessions %}
+            <br> 
+            <center><h1> You currently have no active bookings or created groups</h1></center>
+        {% endif %}
+    {% endif %}
+    
+
+</body>
+
+{% endblock %}

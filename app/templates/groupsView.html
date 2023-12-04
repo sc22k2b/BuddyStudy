@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block filter %}
+
+<head>
+    <link rel="stylesheet" href="../../../static/style.css"> 
+</head>
+
+<body>
+    <br>
+        <div class="filter-box">
+
+            <h2> Group filter: </h2>
+
+            <form action="" method = "post" name="filterGroups">
+                {{ form.hidden_tag() }}
+
+                <p>
+                    <label for = "topic_form"> <b> Topic</b></label>
+                    {{ form.topic(class='form-control', id="topic_form") }}
+
+                    {% for error in form.topic.errors %}
+                        [{{ error }}]
+                    {% endfor %}
+                </p>
+
+                <p>
+                    <label for="institution_form"> <b> Specific to your institution? </b> </label>
+                    {{ form.institution(class='form-control', id="institution_form") }}
+        
+                    {% for error in form.institution.errors %}
+                        [{{ error }}]
+                    {% endfor %}
+                </p>
+
+                <p> 
+                    <label for="accessible_form"> <b> Accessible? </b></label>
+                    {{ form.accessible(class='form-control', id='accessible_form') }}
+
+                    {% for error in form.accessible.errors %}
+                        [{{ error }}]
+                    {% endfor %}
+                </p>
+
+                <p><input type = "submit" value="Apply filter" class="button-submit"></p>
+            </form>
+        </div>
+</body>
+{% endblock %}
+
+{% block content %}
+
+<head> 
+    <title> View groups </title>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='jquery.min.js') }}" ></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='book.js') }}" ></script>
+
+    <link rel="stylesheet" href="../../../static/style.css"> 
+</head>
+
+<body>
+    <br>
+    {% if groups %}
+
+    <center><h1> Available groups: </h1></center>
+
+        {% for g in groups %}
+            <div class="card">
+
+                <div class="card-header">
+                    <h2><a class="card-link" href="/viewGroup/groupId={{ g.0.id }}">{{ g.0.title }}</a>
+                        {% if g.0.soonDate %}<span class="ribbon"> Starting soon</span> {% endif %}</h2>
+                </div>
+                <br>
+
+                <p><b>{{ g.0.topic }}</b> &nbsp {{ g.0.description }}</p>
+
+                <p> Starting: {{ g.0.startDate }} at {{ g.0.startTime }}</p>
+                
+                <meta name="csrf-token" content="{{ csrf_token() }}">
+
+                <a class="book" id="{{ g.0.id }},{{ userId }}">
+					</class><button type="button" class="button-book"> Book </button><span id="sup"> {{ g.0.attendance }}</span><span> out of {{ g.0.capacity }}</span></a>
+
+                <a class="card-link" id="location" href="/viewLocation/locationId={{ g.0.meetingLocation }}"> {{ g.0.locationTitle }}</a>
+                        
+            </div>
+        {% endfor %}
+
+    {% else %}
+        <center><h1> There are currently no groups </h1>
+        <p> There may be groups in the system however, you are either the creator, already booked on or the group has expired </p></center>
+    {% endif %}
+</body>
+
+{% endblock %}

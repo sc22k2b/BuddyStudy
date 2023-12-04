@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+<a class="navbar-brand" href="#">
+    <img src="../../../../static/BuddyStudyLogo.png" alt="Logo to improve the feel of the website">
+</a>
+
+{% block content %}
+
+    <head>
+        <link rel="stylesheet" href="../static/style.css"> 
+    </head>
+
+    <body>
+
+        <center>
+        <h1> View group </h1>
+
+        <br>
+        <h2> {{ group.title }}</h2>
+
+        <p> <b>Topic: </b> {{ group.topic }}</p>
+
+        <p> <b>Description: </b> {{ group.description }}</p>
+
+        <p> <b>Starts: </b> {{ group.startDate }} at {{ group.startTime }}</p>
+
+        <p> <b>Participants: </b> ({{ group.attendance }} out of {{ group.capacity }}) </p>
+        
+        {% for user in users %}
+            <li> {{ user }} </li>
+        {% endfor %}
+
+        <br>
+        <p><b>Location: </b> <a id="location" href="/viewLocation/locationId={{ group.meetingLocation }}"> {{ group.locationTitle }}</a></p>
+
+        {% if group.institution %}
+            <p><b>Institution: </b> {{group.institution}}</p>
+        {% endif %}
+    </center>
+    </body>
+{% endblock %}

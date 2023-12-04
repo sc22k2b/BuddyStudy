@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<head>
+    <title>
+        Edit user
+    </title>
+
+    <link rel="stylesheet" href="../static/style.css"> 
+</head>
+
+<body>
+    <center><h1> Here is your account information </h1></center>
+    <center><p> Change any fields and hit update to change your details </p></center>
+
+    <form action="" method = "post" name = "updateUser">
+
+        {{ form.hidden_tag() }}
+
+        <p>
+            <label for="name_form"> <b> Name: </b> (Max 30 letters)</label>
+            {{ form.name(class='form-control', id="name_form") }}
+
+            {% for error in form.name.errors %}
+                [{{ error }}]
+            {% endfor %}
+        </p>
+
+        <p>
+            <label for="email_form"> <b> Email: </b> </label>
+            {{ form.email(class='form-control', id="email_form") }}
+
+            {% for error in form.email.errors %}
+                [{{error}}]
+            {% endfor %}
+
+        </p>
+
+        <p> <label for="institution_form"> <b> Institution: </b> </label>
+            
+            {{ form.institution(class='form-control', placeholder="Institution (e.g. University of Leeds)", id="institution_form") }}
+
+            {% for error in form.institution.errors %}
+                [{{error}}]
+            {% endfor %}
+
+        </p>
+
+        <center><p><input type = "submit" value="Update user" class="button-submit"></p></center>
+
+    </form>
+
+    <br>
+    <center><span> <a href="/" ><button type="button" class="button-book"> Logout </button></a></span></center>
+</body>
+
+
+{% endblock %}

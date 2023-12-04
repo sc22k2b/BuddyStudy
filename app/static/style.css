@@ -1,0 +1,221 @@
+.error{
+    text-align: center;
+    color: red;
+}
+
+.success{
+    text-align: center;
+    color: green;
+}
+
+.info{
+    text-align: center;
+    color: lightblue;
+}
+
+.navbar-colour{
+
+    background-color: #051650
+}
+
+.nav-link{
+    color:white;
+}
+
+.nav-link:hover{
+    color:#6868ff;
+}
+
+.card{
+
+    margin: 20px;
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.card-header{
+
+    color: white;
+    background-color: white;
+}
+
+.filter-box{
+
+    height: 450px;
+    width: 215px;
+
+    color: black;
+    background: white;
+    outline: black;
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.button-submit{
+
+    background-color: #1F4D29;
+    border: none;
+    color: white;
+    border-radius:6px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.ribbon {
+    width: 70px;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    right: -25px;
+    top: -12px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color: red;
+    color: white;
+  }
+
+.button-book{
+
+    background-color: #0a2b98;
+    border: none;
+    color: white;
+    border-radius:6px;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+#progressBar{
+
+    width:100%;
+    background-color:grey;
+}
+
+#theBar{
+
+    width: 1%;
+    height: 30px;
+    background-color: #2b54dc;
+}
+
+.area-style{
+
+    overflow: hidden;
+}
+
+.button-unbook{
+
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius:6px;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.button-groupDelete{
+
+    background-color: rgb(204, 28, 28);
+    border: none;
+    color: white;
+    border-radius:6px;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease;    
+}
+
+.button-groupEdit{
+
+    background-color: #B34A00;
+    border: none;
+    color: white;
+    border-radius:6px;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease;    
+}
+
+.login-container{
+
+    height: 450px;
+    width: 300px;
+
+         
+    color: black;
+    background: white;
+    outline: black;
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.create-container{
+
+    height: 600px;
+    width: 400px;
+
+         
+    color: black;
+    background: white;
+    outline: black;
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.parallax {
+    background-image: url("../static/studentsStudying.jpg");
+  
+    min-height: 200px;
+    min-width: 100px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    overflow: hidden;
+  }
+
+.parallax2 {
+    background-image: url("../static/studentsStudying2.jpg");
+
+    min-height: 200px;
+    min-width: 100px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.nav-link{
+
+    color: white;
+}
+
+.card-link{
+
+    color:blue;
+}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<head>
+    <title> View location </title>
+    <link rel="stylesheet" href="../static/style.css"> 
+</head>
+
+<body>
+    <center><h1> {{ title }}</h1>
+
+    <p> <b>Description: </b>{{ description }}</p>
+
+    {% if accessible %}
+        <p> <b>Accessible? </b>This location is accessible </p>
+    {% else %}
+        <p> <b>Accessible? </b> This location is not accessible </p>
+    {% endif %}</center>
+</body>
+{% endblock %}

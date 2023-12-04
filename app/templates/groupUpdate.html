@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<head>
+    <title> 
+        Update a group
+    </title>
+
+    <link rel="stylesheet" href="../static/style.css"> 
+</head>
+
+<body>
+    <center><h1> Update the group here: </h1></center>
+
+    <form action="" method= "post" name= "updateGroup">
+        {{ form.hidden_tag() }}
+
+        <p>
+            <label for="title_form"> <b> Title: </b> (Max 30 letters)</label>
+            {{ form.title(class='form-control', placeholder="Title (e.g. COMP2011 - Web Dev Study)", id="title_form") }}
+
+            {% for error in form.title.errors %}
+                [{{ error }}]
+            {% endfor %}
+        </p> 
+
+        <p>
+            <label for="topic_form"> <b> Topic: </b> (Max 30 letters)</label>
+            {{ form.topic(class='form-control', id="topic_form") }}
+
+            {% for error in form.topic.errors %}
+                [{{ error }}]
+            {% endfor %}
+        </p> 
+
+        <p>
+            <label for="description_form"> <b> Description: </b> </label>
+            {{ form.description(class='form-control', placeholder="Description (Describe the aim of the study session)", id="description_form") }}
+
+            {% for error in form.description.errors %}
+                [{{ error }}]
+            {% endfor %}
+        </p> 
+
+        <p>
+            <label for="startDate_form"> <b> Meeting starting date: </b> </label>
+            {{ form.startDate(class='form-control', type="date", id="startDate_form") }}
+
+            {% for error in form.startDate.errors %}
+                [{{ error }}]
+            {% endfor %}
+        </p>
+
+        <p>
+            <label for="startTime_form"> <b> Meeting starting time: </b> </label>
+            {{ form.startTime(class='form-control', type="time", id="startTime_form") }}
+
+            {% for error in form.startTime.errors %}
+                [{{ error }}]
+            {% endfor %}
+        </p>
+
+        <p>
+            <label for="capacity_form"> <b> Capacity: </b> </label>
+            {{ form.capacity(class='form-control', placeholder="Capacity (How many people can attend e.g 15)", id="capacity_form") }}
+
+            {% for error in form.capacity.errors %}
+                [{{ error }}]
+            {% endfor %}
+        </p>
+
+        <p>
+
+            <form action="" method= "post" name= "updateLocation">
+                {{ locationForm.hidden_tag() }}
+                
+                <label for="locationTitle_locationForm"> <b> Location title: </b> (Max 30 letters)</label>
+
+                {{ locationForm.locationTitle(class='form-control', placeholder="Title (e.g. Edward Boyle study booth 2.15)", id="locationTitle_locationForm") }}
+
+                {% for error in locationForm.locationTitle.errors %}
+                    [{{ error }}]
+                {% endfor %}
+
+                <label for="locationDescription_locationForm"> <b> Description: </b></label>
+
+                {{ locationForm.locationDescription(class='form-control', placeholder="Description (e.g. Directions on how to find the location)", id="locationDescription_locationForm") }}
+
+                {% for error in locationForm.locationDescription.errors %}
+                    [{{ error }}]
+                {% endfor %}
+
+                <label for="accessible_locationForm"> <b> Is the location accessible?: </b></label>
+
+                {{ locationForm.accessible(class='form-control', id="accessible_locationForm") }}
+
+                {% for error in locationForm.accessible.errors %}
+                    [{{ error }}]
+                {% endfor %}
+
+        </p>
+
+        <p>
+            <label for="institution_form"> <b> Institution: </b> </label>
+            {{ form.institution(class='form-control', placeholder="Institution (e.g. University of Leeds)", id="institution_form") }}
+
+            {% for error in form.institution.errors %}
+                [{{ error }}]
+            {% endfor %}
+        </p>
+
+        <center><p><input type = "submit" value="Update group" class="button-submit"></p></center>
+
+        
+</body>
+
+{% endblock %}

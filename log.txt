@@ -1,0 +1,460 @@
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [04/Dec/2023 17:11:00] "GET /home HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:11:00] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:11:00] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:11:00] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:11:00] "[36mGET /static/studentsStudying2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:11:00] "[36mGET /static/studentsStudying.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:11:01] "GET /editUser HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:11:01] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:11:01] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:11:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ Login page accessed 
+127.0.0.1 - - [04/Dec/2023 17:11:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:11:02] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:11:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ Login page accessed 
+127.0.0.1 - - [04/Dec/2023 17:12:43] "[32mPOST / HTTP/1.1[0m" 302 -
+127.0.0.1 - - [04/Dec/2023 17:12:43] "GET /home HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:12:43] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:12:43] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:12:43] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:12:43] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:12:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:12:43] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:12:43] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:12:43] "[33mGET /x HTTP/1.1[0m" 404 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [04/Dec/2023 17:13:29] "GET /editUser HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:13:29] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:29] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:29] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:13:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:13:29] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:29] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:29] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:29] "[33mGET /x HTTP/1.1[0m" 404 -
+ Login page accessed 
+127.0.0.1 - - [04/Dec/2023 17:13:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:13:30] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:13:30] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:30] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:30] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:30] "[33mGET /x HTTP/1.1[0m" 404 -
+ Login page accessed 
+ Successful login by: {user.email}
+127.0.0.1 - - [04/Dec/2023 17:13:35] "[32mPOST / HTTP/1.1[0m" 302 -
+127.0.0.1 - - [04/Dec/2023 17:13:35] "GET /home HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:13:35] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:13:35] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:13:35] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:35] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:35] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:35] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:44] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:13:44] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [04/Dec/2023 17:14:29] "GET /home HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:14:29] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:14:29] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:14:29] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:29] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:29] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:29] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:30] "GET /editUser HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:14:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:14:30] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:30] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:14:30] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:30] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:30] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:30] "[33mGET /x HTTP/1.1[0m" 404 -
+ Login page accessed 
+127.0.0.1 - - [04/Dec/2023 17:14:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:14:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:14:31] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:31] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:31] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:31] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:31] "[33mGET /x HTTP/1.1[0m" 404 -
+ Login page accessed 
+ Successful login by: dave@gmail.com
+127.0.0.1 - - [04/Dec/2023 17:14:34] "[32mPOST / HTTP/1.1[0m" 302 -
+127.0.0.1 - - [04/Dec/2023 17:14:34] "GET /home HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:14:34] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:14:34] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:34] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:14:34] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:34] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:34] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:14:34] "[33mGET /x HTTP/1.1[0m" 404 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [04/Dec/2023 17:16:26] "GET /home HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:16:26] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:26] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:26] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:16:26] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:16:26] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:27] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:27] "GET /editUser HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:16:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:16:27] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:27] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:16:27] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:27] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:27] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:27] "[33mGET /x HTTP/1.1[0m" 404 -
+ Login page accessed 
+127.0.0.1 - - [04/Dec/2023 17:16:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:16:28] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:16:28] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:28] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:28] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:28] "[33mGET /x HTTP/1.1[0m" 404 -
+ Login page accessed 
+Successful login by: dave@gmail.com
+127.0.0.1 - - [04/Dec/2023 17:16:32] "[32mPOST / HTTP/1.1[0m" 302 -
+127.0.0.1 - - [04/Dec/2023 17:16:32] "GET /home HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 17:16:32] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:16:32] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 17:16:32] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:32] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:32] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 17:16:32] "[33mGET /x HTTP/1.1[0m" 404 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+Login page accessed 
+127.0.0.1 - - [04/Dec/2023 20:44:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:44:32] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:32] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:32] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:44:32] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:32] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:34] "GET /createAccount HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:44:34] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:44:34] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:34] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:34] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:34] "[33mGET /x HTTP/1.1[0m" 404 -
+New account created for: tom@gmail.com
+127.0.0.1 - - [04/Dec/2023 20:44:50] "[32mPOST /createAccount HTTP/1.1[0m" 302 -
+Login page accessed 
+127.0.0.1 - - [04/Dec/2023 20:44:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:44:50] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:44:50] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:50] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:50] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:50] "[33mGET /x HTTP/1.1[0m" 404 -
+Login page accessed 
+Successful login by: tom@gmail.com
+127.0.0.1 - - [04/Dec/2023 20:44:55] "[32mPOST / HTTP/1.1[0m" 302 -
+127.0.0.1 - - [04/Dec/2023 20:44:55] "GET /home HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:44:55] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:44:55] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:44:55] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:55] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:55] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:55] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:44:55] "[36mGET /static/studentsStudying.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:44:55] "[36mGET /static/studentsStudying2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:45:24] "GET /createGroup HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:45:24] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:45:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:45:24] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:45:24] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:45:24] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:45:24] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:45:24] "[33mGET /x HTTP/1.1[0m" 404 -
+New location: Mechanical Engineering Jordan Esther Lab created
+New group: MECH1876 - Robot building created
+127.0.0.1 - - [04/Dec/2023 20:48:12] "POST /createGroup HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:48:12] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:48:12] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:12] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:48:12] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:12] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:12] "[33mGET /x HTTP/1.1[0m" 404 -
+View group page accessed
+127.0.0.1 - - [04/Dec/2023 20:48:16] "GET /viewGroups/institution=False/accessible=False/topic=None HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:48:16] "[33mGET /viewGroups/institution=False/static/style.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:16] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:48:16] "[36mGET /static/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:48:16] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:16] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:48:16] "[36mGET /static/book.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:48:16] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:16] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:17] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+User: 7 checked their groups
+127.0.0.1 - - [04/Dec/2023 20:48:22] "GET /viewCurrentUserGroups HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:48:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:48:22] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:22] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:48:22] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:22] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:22] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:22] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:26] "GET /updateGroup/groupId=19 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:48:26] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:48:26] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:48:26] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:26] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:26] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:26] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:44] "POST /updateGroup/groupId=19 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:48:44] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:48:44] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:44] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:48:44] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:44] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:48:44] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+Group: 19 updated by 7
+127.0.0.1 - - [04/Dec/2023 20:49:01] "POST /updateGroup/groupId=19 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:49:01] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:49:01] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:01] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:49:01] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:01] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:01] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:01] "[33mGET /updateGroup/x HTTP/1.1[0m" 404 -
+User: 7 checked their groups
+127.0.0.1 - - [04/Dec/2023 20:49:03] "GET /viewCurrentUserGroups HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:49:03] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:49:03] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:03] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:49:03] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:03] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:03] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:08] "GET /viewGroup/groupId=19 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:49:08] "[33mGET /viewGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:49:08] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:49:08] "[33mGET /viewGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:08] "[33mGET /viewGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:08] "[33mGET /viewGroup/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:08] "[33mGET /viewGroup/x HTTP/1.1[0m" 404 -
+Location: Mechanical Engineering Jordan Esther Lab viewed by user 7
+127.0.0.1 - - [04/Dec/2023 20:49:23] "GET /viewLocation/locationId=25 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:49:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:49:23] "[33mGET /viewLocation/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:23] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:49:23] "[33mGET /viewLocation/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:23] "[33mGET /viewLocation/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:23] "[33mGET /viewLocation/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:23] "[33mGET /viewLocation/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:55] "GET /home HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:49:55] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:49:55] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:55] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:49:55] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:55] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:49:55] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:42] "GET /editUser HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:50:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:50:42] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:42] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:50:42] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:42] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:42] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:42] "[33mGET /x HTTP/1.1[0m" 404 -
+View group page accessed
+127.0.0.1 - - [04/Dec/2023 20:50:51] "GET /viewGroups/institution=False/accessible=False/topic=None HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:50:51] "[33mGET /viewGroups/institution=False/static/style.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:51] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:50:51] "[36mGET /static/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:50:51] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:50:51] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:51] "[36mGET /static/book.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:50:51] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:51] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:51] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+User 7 booked onto session 12
+127.0.0.1 - - [04/Dec/2023 20:50:54] "POST /book HTTP/1.1" 200 -
+User: 7 checked their groups
+127.0.0.1 - - [04/Dec/2023 20:50:56] "GET /viewCurrentUserGroups HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:50:56] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:50:56] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:56] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:50:56] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:56] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:50:56] "[33mGET /x HTTP/1.1[0m" 404 -
+User: 7 checked their groups
+127.0.0.1 - - [04/Dec/2023 20:51:05] "GET /viewUserGroups HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:51:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:51:05] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:05] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:51:05] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:05] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:05] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:05] "[33mGET /x HTTP/1.1[0m" 404 -
+User: 7 checked their groups
+127.0.0.1 - - [04/Dec/2023 20:51:46] "GET /viewCurrentUserGroups HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:51:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:51:46] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:46] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:51:46] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:46] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:46] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:46] "[33mGET /x HTTP/1.1[0m" 404 -
+User: 7 checked their groups
+127.0.0.1 - - [04/Dec/2023 20:51:51] "GET /viewUserGroups HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:51:51] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:51:51] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:51] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:51:51] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:51] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:51] "[33mGET /x HTTP/1.1[0m" 404 -
+User: 7 checked their groups
+127.0.0.1 - - [04/Dec/2023 20:51:54] "GET /viewCurrentUserGroups HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:51:54] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:51:54] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:51:54] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:54] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:54] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:51:54] "[33mGET /x HTTP/1.1[0m" 404 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+User: 7 checked their groups
+127.0.0.1 - - [04/Dec/2023 20:53:39] "GET /viewCurrentUserGroups HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:53:39] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:39] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:39] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:39] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:39] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:39] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:39] "[33mGET /x HTTP/1.1[0m" 404 -
+User: 7 checked their groups
+127.0.0.1 - - [04/Dec/2023 20:53:43] "GET /viewUserGroups HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:53:43] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:43] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:43] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:43] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:43] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:43] "[33mGET /x HTTP/1.1[0m" 404 -
+View group page accessed
+127.0.0.1 - - [04/Dec/2023 20:53:51] "GET /viewGroups/institution=False/accessible=False/topic=None HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:53:51] "[33mGET /viewGroups/institution=False/static/style.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:51] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:51] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:51] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:51] "[36mGET /static/book.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:51] "[36mGET /static/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:51] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:51] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:51] "[33mGET /viewGroups/institution=False/accessible=False/x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:52] "GET /createGroup HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:53:52] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:52] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:52] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:52] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:52] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:52] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:57] "GET /home HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:53:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:57] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:57] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:57] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:57] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:57] "[36mGET /static/studentsStudying.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:57] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:53:57] "[36mGET /static/studentsStudying2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:53:57] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:04] "GET /editUser HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:54:04] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:04] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:04] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:04] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:04] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:04] "[33mGET /x HTTP/1.1[0m" 404 -
+User: 7 checked their groups
+127.0.0.1 - - [04/Dec/2023 20:54:05] "GET /viewCurrentUserGroups HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:54:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:05] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:05] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:05] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:05] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:05] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:05] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:07] "GET /editUser HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:54:07] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:07] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:07] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:07] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:07] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:07] "[33mGET /x HTTP/1.1[0m" 404 -
+User: thomas@gmail.com updated
+127.0.0.1 - - [04/Dec/2023 20:54:19] "POST /editUser HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:54:19] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:19] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:19] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:19] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:19] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:19] "[33mGET /x HTTP/1.1[0m" 404 -
+User: 7 checked their groups
+127.0.0.1 - - [04/Dec/2023 20:54:21] "GET /viewCurrentUserGroups HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "GET /editUser HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[36mGET /static/BuddyStudyLogo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:21] "[33mGET /x HTTP/1.1[0m" 404 -
+Login page accessed 
+127.0.0.1 - - [04/Dec/2023 20:54:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2023 20:54:26] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2023 20:54:26] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:26] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:26] "[33mGET /x HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Dec/2023 20:54:26] "[33mGET /x HTTP/1.1[0m" 404 -

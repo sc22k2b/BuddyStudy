@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+  <head>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../static/style.css"> 
+
+    <style>
+        ul#menu li {
+            display:inline;
+        }
+    </style>
+
+    {% if title %}
+    <title>{{ title }}</title>
+    {% else %}
+    <title> No title specified</title>
+    {% endif %}
+
+  </head>
+
+
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-4"></div>
+                <div class="col-4">
+                  {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                      {% for category, message in messages %}
+                      <div class="{{ category }}">
+                            {{ message }}
+                      </div>
+                      {% endfor %}
+          
+                    {% endif %}
+                   {% endwith %}
+
+                   <br>
+                   <br>
+                   <br>
+                   <center> <h1> Welcome to Buddy Studdy </h1></center>
+                   <br>
+                   <center><div class= "login-container">
+
+                        <center> <h1> Login: </h1> </center>
+
+                        <form action = "" method = "post" name = "login">
+
+                            {{ form.hidden_tag() }}
+
+                            <p>
+                                <label for="email_form"> <b> Email: </b></label>
+                                {{ form.email(class='form-control', placeholder="Email (e.g. JoeBloggs@gmail.com)", id="email_form") }}
+
+                                {% for error in form.email.errors %}
+                                    [{{error}}]
+                                {% endfor %}
+
+                            </p>
+                            <p>
+                                <label for="password_form"> <b> Password: </b></label>
+                                {{ form.password(class='form-control', placeholder="Password", id="password_form", type="password") }}
+
+                                {% for error in form.password.errors %}
+                                    [{{error}}]
+                                {% endfor %}
+                            </p>
+                            <center><p><input type = "submit" value="Login" class="button-submit"></p></center>
+                        </form>
+
+                        <p> Dont have an account?</p>
+                        <a href="/createAccount"> Create account </a>
+                    </body>
+                </div></center>
+                <div class="col-4"></div>
+            </div>
+        </div>
+      </div>
+</div>
+
+<!--previous code here-->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="x" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="x" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="x" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>  
+
+        
+
